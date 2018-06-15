@@ -1,0 +1,24 @@
+{
+  order_books (id: "LTCBTC") {
+    binance {
+      bids {
+        price
+        quantity
+      }
+      asks {
+        price
+        quantity
+      }
+    }
+    bittrex {
+      bids {
+        price
+        quantity
+      }
+      asks {
+        price
+        quantity
+      }
+    }
+  }
+}

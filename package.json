@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  },
+  "name": "crypto_api_aggregator",
+  "version": "0.1.0",
+  "description": "Primarily as an exercise in using GraphQL, this service is intended to aggregate cryptocurrency APIs into a common format.",
+  "main": "src/index.js",
+  "repository": "https://github.com/hibes/crypto_api_aggregator",
+  "license": "MIT"
+}
